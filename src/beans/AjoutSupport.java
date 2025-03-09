@@ -12,17 +12,11 @@ import java.util.Date;
  * @author Moi
  */
 public class AjoutSupport {
-    private int id;
     private Support support;
     private Professeur professeur;
     private Date dateAjout;
 
-    public AjoutSupport(int id, Support support, Professeur professeur, Date dateAjout) {
-        this.id = id;
-        this.support = support;
-        this.professeur = professeur;
-        this.dateAjout = dateAjout;
-    }
+    
 
     public AjoutSupport(Support support, Professeur professeur, Date dateAjout) {
         this.support = support;
@@ -30,13 +24,8 @@ public class AjoutSupport {
         this.dateAjout = dateAjout;
     }
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    
 
     public Support getSupport() {
         return support;
