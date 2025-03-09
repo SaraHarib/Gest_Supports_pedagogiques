@@ -27,8 +27,7 @@ CREATE TABLE Support (
 );
 
 
-CREATE TABLE AjoutSupport (
-    support_id INT NOT NULL,
+CREATE TABLE AjoutSupport {
     professeur_id INT NOT NULL,
     date_ajout DATE NOT NULL,
     FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE,
