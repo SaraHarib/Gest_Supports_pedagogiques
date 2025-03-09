@@ -28,7 +28,6 @@ CREATE TABLE Support (
 
 
 CREATE TABLE AjoutSupport (
-    id INT AUTO_INCREMENT PRIMARY KEY,
     support_id INT NOT NULL,
     professeur_id INT NOT NULL,
     date_ajout DATE NOT NULL,
