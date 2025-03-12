@@ -22,14 +22,16 @@ CREATE TABLE Professeur (
 CREATE TABLE Support (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titre VARCHAR(100) NOT NULL,
-    type ENUM('PDF', 'Word', 'Excel', 'Texte', 'Vidéo', 'Audio', 'Image', 'Présentation', 'Lien Web', 'Archive', 'Autre') NOT NULL,
+type ENUM('PDF','WORD','EXCEL','TEXTE','VIDEO','AUDIO','IMAGE','PRESENTATION','LIEN_WEB','ARCHIVE','AUTRE') NOT NULL,
     fichier VARCHAR(255) NOT NULL
 );
 
 
-CREATE TABLE AjoutSupport {
+CREATE TABLE AjoutSupport (
+    support_id INT NOT NULL,
     professeur_id INT NOT NULL,
     date_ajout DATE NOT NULL,
+    PRIMARY KEY (support_id, professeur_id, date_ajout),
     FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE,
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE
 );
