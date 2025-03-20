@@ -37,6 +37,9 @@ CREATE TABLE AjoutSupport (
     FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE,
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE
 );
+
+
+
 CREATE TABLE User(
     login VARCHAR(50) PRIMARY KEY,
     password VARCHAR(256) NOT NULL
