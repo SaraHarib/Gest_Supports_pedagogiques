@@ -9,6 +9,8 @@ Rechercher un support par titre : Permet de rechercher un support en fonction de
 Lister les supports par type : Affiche les supports selon leur type (PDF, Vidéo, etc.).
 Visualisation des statistiques : Générer un graphe en barres montrant le nombre de supports par professeur.
 
+#DEMO
+https://drive.google.com/drive/u/0/folders/18S-CPCHHvHKJ3Hg3HyhTufHf0slMlYNn
 # Structure de la Base de Données
 
 CREATE TABLE Professeur (
@@ -22,7 +24,7 @@ CREATE TABLE Professeur (
 CREATE TABLE Support (
     id INT AUTO_INCREMENT PRIMARY KEY,
     titre VARCHAR(100) NOT NULL,
-type ENUM('PDF','WORD','EXCEL','TEXTE','VIDEO','AUDIO','IMAGE','PRESENTATION','LIEN_WEB','ARCHIVE','AUTRE') NOT NULL,
+    type ENUM('PDF','PRESENTATION','LIEN_WEB') NOT NULL,
     fichier VARCHAR(255) NOT NULL
 );
 
@@ -34,4 +36,8 @@ CREATE TABLE AjoutSupport (
     PRIMARY KEY (support_id, professeur_id, date_ajout),
     FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE,
     FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE
+);
+CREATE TABLE User(
+    login VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(256) NOT NULL
 );
