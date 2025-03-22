@@ -87,6 +87,9 @@ CREATE TABLE ajoutSupport (
 );
 
 CREATE TABLE user (
-    login VARCHAR(50) PRIMARY KEY,
-    password VARCHAR(255) NOT NULL
+    login VARCHAR(255) PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    securityQuestion VARCHAR(255),
+    securityAnswer VARCHAR(255),
+    email VARCHAR(255)
 );
