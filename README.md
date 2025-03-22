@@ -49,7 +49,7 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 
 ##   Vidéo démonstrative sur les interfaces de l'application
 
-[Lien vers la vidéo]()
+[Lien vers la vidéo](https://drive.google.com/drive/u/0/folders/18S-CPCHHvHKJ3Hg3HyhTufHf0slMlYNn)
 
 ## Structure de la Base de Données
 
