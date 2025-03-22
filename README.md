@@ -82,8 +82,8 @@ CREATE TABLE ajoutSupport (
     professeur_id INT NOT NULL,
     date_ajout DATE NOT NULL,
     PRIMARY KEY (support_id, professeur_id,date_ajout),
-    FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE ON UPDATE        CASCADE,
-    FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE ON         UPDATE CASCADE
+    FOREIGN KEY (support_id) REFERENCES Support(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (professeur_id) REFERENCES Professeur(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE user (
