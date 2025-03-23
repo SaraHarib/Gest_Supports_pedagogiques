@@ -52,7 +52,8 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 ##   Vidéo démonstrative sur les interfaces de l'application
 
 
-[Démonstration](https://github.com/SaraHarib/Gest_Supports_pedagogiques/blob/9e109e1d3665d5c3901c868ef9c9f4d4e06f1ea6/gspSaraDemo.mp4)
+[Démonstration](https://github.com/user-attachments/assets/dac73c96-a792-4bc2-ab53-7942121f22f7
+)
 
 ## Structure de la Base de Données
 
@@ -96,3 +97,6 @@ CREATE TABLE user (
     securityAnswer VARCHAR(255),
     email VARCHAR(255)
 );
+
+
+
