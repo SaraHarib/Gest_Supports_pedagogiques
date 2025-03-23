@@ -51,7 +51,8 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 
 ##   Vidéo démonstrative sur les interfaces de l'application
 
-[Voir la vidéo](https://github.com/SaraHarib/Gest_Supports_pedagogiques/blob/ef85db84c32f53820582b49614003037ac24c080/gspSaraDemo.mp4)
+
+[Voir la vidéo](gspSaraDemo.mp4)
 
 ## Structure de la Base de Données
 
