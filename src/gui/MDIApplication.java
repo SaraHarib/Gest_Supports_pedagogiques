@@ -225,7 +225,13 @@ public class MDIApplication extends javax.swing.JFrame {
         spt.setVisible(true);
         centerInternalFrame(spt);
     }//GEN-LAST:event_supportParTypeMenuItemActionPerformed
-
+    
+    private void contentMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_contentMenuItemActionPerformed
+         closeAllInternalFrames();
+         BarChart bs = new BarChart();
+        desktopPane.add(bs);
+        bs.setVisible(true);
+    }//GEN-LAST:event_contentMenuItemActionPerformed
     /**
      * @param args the command line arguments
      */
