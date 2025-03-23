@@ -51,7 +51,7 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 
 ##   Vidéo démonstrative sur les interfaces de l'application
 
-[Lien vers la vidéo]()
+[Voir la vidéo](chemin/vers/la/video.mp4)
 
 ## Structure de la Base de Données
 
