@@ -30,7 +30,7 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 
 
 ### Diagramme de classe
-![Diagramme de classe](src/images/classediag.png)
+![Diagramme de classe](src/images/diagrammedeclasse.png)
 
 
 ## Architecture
