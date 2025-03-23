@@ -1,4 +1,6 @@
 # Gestion des Supports Pédagogiques
+## Logo
+![Logo](src/images/logo.png)
 
 ## Description
 
