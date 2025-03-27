@@ -1,29 +1,29 @@
-# Gestion des Supports Pédagogiques
+# Gestion des Supports Pédagogiques 📚
 ## Logo
 ![Logo](src/images/logo.png)
 
-## Description
+## Description 📝
 
 La Gestion des Supports Pédagogiques est une application Java Swing conçue pour centraliser et organiser les supports pédagogiques mis à disposition par les professeurs. Elle permet d'ajouter, filtrer et rechercher des supports en fonction de plusieurs critères, tout en offrant une visualisation statistique de leur répartition.
 
 
-## Contexte
+## Contexte 🌍
 
 Dans un environnement académique, la gestion des supports pédagogiques est essentielle pour assurer un accès structuré et efficace aux ressources d’apprentissage. Cependant, ces supports sont souvent dispersés, rendant leur consultation et leur mise à jour difficiles. Cette application vise à centraliser ces documents, simplifier leur gestion et améliorer l’expérience des professeurs et des étudiants.
 
 
-## Problématique
+## Problématique ⚠️
 
 Actuellement, le stockage et la gestion des supports pédagogiques se font souvent de manière informelle, via des dossiers partagés ou des plateformes variées. Cela pose des problèmes de recherche, d’accessibilité et d’organisation. Il est donc nécessaire d’avoir un système qui facilite la gestion et le suivi de ces supports de manière efficace et intuitive.
 
-## Objectifs
+## Objectifs 🎯
 
 * **Centraliser les informations :** Regrouper toutes les données relatives aux supports pédagogiques, aux étudiants et aux professeurs dans une base de données unique.
 * **Faciliter la gestion :** Offrir une interface conviviale pour la création, la modification et la suppression des supports pédagogiques.
 * **Optimiser la recherche :** Permettre une recherche efficace des supports pédagogiques par titre et un filtrage par professeur.
 * **Offrir une visualisation statistique :** du nombre de supports par professeur à l’aide d’un graphique en barres.
 
-## Diagrammes UML
+## Diagrammes UML 🖥️
 
 ### Diagramme use case 
 ![Diagramme use case ](src/images/usecase.png)
@@ -33,11 +33,11 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
 ![Diagramme de classe](src/images/diagrammedeclasse1.png)
 
 
-## Architecture
+## Architecture 🏗️
 
  ![Architecture du projet](src/images/architecture.png)
  
-## Technologies
+## Technologies 💻
 
 * **Langage :** Java
 * **Framework d'interface graphique :** Java Swing
@@ -49,13 +49,13 @@ Actuellement, le stockage et la gestion des supports pédagogiques se font souve
     * Outil de gestion de base de données : phpMyAdmin
 * **Accès aux données :** JDBC
 
-##   Vidéo démonstrative sur les interfaces de l'application
+##   Vidéo démonstrative sur les interfaces de l'application 🎥
 
 
-[Démonstration](https://github.com/user-attachments/assets/dac73c96-a792-4bc2-ab53-7942121f22f7
+[Démonstration](https://github.com/user-attachments/assets/09d7f5d3-28f3-4222-b58b-2aa5fc691371
 )
 
-## Structure de la Base de Données
+## Structure de la Base de Données 🗄️
 
 Le système repose sur quatre tables principales :
 
@@ -64,7 +64,7 @@ Le système repose sur quatre tables principales :
 3.  **AjoutSupport** : Enregistre les ajouts de supports par les professeurs (support_id, professeur_id, date_ajout).
 4.  **User** : Informations d'authentification (login, mot de passe).
 
-### Schéma de la Base de Données
+### Schéma de la Base de Données 📊
 
 ```sql
 CREATE TABLE professeur (
@@ -97,6 +97,9 @@ CREATE TABLE user (
     securityAnswer VARCHAR(255),
     email VARCHAR(255)
 );
+
+
+
 
 
 
